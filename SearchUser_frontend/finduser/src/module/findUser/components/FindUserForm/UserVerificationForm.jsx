@@ -22,7 +22,7 @@ const UserVerificationFrom = () => {
         <h1 className={style.userVerificationFormHeader} >Введите <span className={style.userVerificationFormHeaderSpan}>Email</span> или <span className={style.userVerificationFormHeaderSpan}>номер</span> для проверки пользователя</h1>
         <div className={style.userVerificationFormLabelInput}>
             <label htmlFor="email" className={style.userVerificationFormLabel}>E-mail:</label>
-            <input type="email" {...register("email")} id='email' className={style.userVerificationFormInput} placeholder='E-mail'/>
+            <input type="email" {...register("email")} id='email' className={style.userVerificationFormInput} placeholder='E-mail' required/>
         </div>
 
         <div className={style.userVerificationFormLabelInput}>
