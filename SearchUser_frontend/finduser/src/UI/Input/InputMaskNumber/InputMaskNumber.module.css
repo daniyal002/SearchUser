@@ -1,0 +1,9 @@
+.userVerificationFormInput{
+    padding: 10px;
+    outline: none;
+    border: 2px solid #bdb64d;
+    font-size: 24px;
+    border-radius: 8px;
+    color: #4d54bd;
+    background-color: #fff;
+}
