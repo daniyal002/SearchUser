@@ -40,15 +40,13 @@ README для SearchUser
     ```
 **Используемые библиотеки:**
 
-            Фронтенд (React):
+            **Фронтенд (React):**
                 @tanstack/react-query: Управление состоянием и запросами.
                 axios: HTTP-клиент для выполнения запросов к серверу.
-                react: Библиотека для создания пользовательских интерфейсов.
-                react-dom: Библиотека для взаимодействия с DOM в React.
                 react-hook-form: Удобные хуки для работы с формами в React.
                 react-input-mask: Библиотека для создания масок ввода в полях ввода.
 
-            Бекенд (Node.js + Express + TypeScript):
+           **Бекенд (Node.js + Express + TypeScript):**
                 cors: Обеспечивает поддержку Cross-Origin Resource Sharing (CORS).
                 express: Веб-фреймворк для Node.js.
                 nodemon: Инструмент для автоматического перезапуска сервера при изменениях файлов.
